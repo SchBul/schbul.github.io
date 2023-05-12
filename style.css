@@ -1,0 +1,1558 @@
+
+header{
+   position: absolute;
+   height: 64px;
+   left: 0;
+   right: 0;
+   top: 0;
+   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+   background: #ffffff;
+}
+.navigation{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;  
+   gap: 32px;
+   position: absolute;
+   height: 64px;
+   left: 168px;
+   right: 169px;
+   top:0px;
+}
+.logo{
+   width: 150.72px;
+   height: 48px;
+   background: url(logo.png);
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+.frame7{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px 32px;
+   width: 540.28px;
+   height: 64px;
+   /*Inside auto layout*/
+   flex: none;
+   order: 1;
+   flex-grow: 1;
+}
+.menu{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   gap: 8px;
+   width: 158.76px;
+   height: 64px;
+   background: #ffffff;
+   box-shadow: inset 0px -2px 0px #ED1C24;
+   /* inside autu layout*/
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 1;
+}
+.frame1.menu{
+   /* Frame 1 */
+
+
+   /* Auto layout */
+
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 8px 16px;
+   gap: 8px;
+
+   width: 103px;
+   height: 36px;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.trangchu{
+   /* Trang chủ */
+
+
+   width: 71px;
+   height: 20px;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   /* identical to box height, or 125% */
+
+   display: flex;
+   align-items: center;
+
+   color: #ED1C24;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.frame4{
+   /* Auto layout */
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   gap: 8px;
+
+   width: 158.76px;
+   height: 64px;
+
+   background: #FFFFFF;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   align-self: stretch;
+   flex-grow: 1;
+}
+.frame5{
+   /* Frame 5 */
+
+
+   /* Auto layout */
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   gap: 8px;
+
+   width: 158.76px;
+   height: 64px;
+
+   background: #FFFFFF;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 2;
+   align-self: stretch;
+   flex-grow: 1;
+}
+.frame8183{
+   /* Frame 8183 */
+
+
+   /* Auto layout */
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+   gap: 16px;
+
+   width: 348px;
+   height: 64px;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 2;
+   flex-grow: 0;
+}
+.frame109{
+   /* Frame 109 */
+
+
+   /* Auto layout */
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 16px 0px;
+   gap: 12px;
+
+   width: 127px;
+   height: 64px;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.dangkidangnhap{
+   
+   width: 127px;
+   height: 20px;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 20px;
+   /* identical to box height, or 143% */
+
+   display: flex;
+   align-items: center;
+
+   /* primary */
+
+   color: #D61B22;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.frame8179{
+   /* Frame 8179 */
+
+
+   box-sizing: border-box;
+
+   /* Auto layout */
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px 10px;
+   gap: 18px;
+
+   width: 205px;
+   height: 36px;
+
+   background: #FFFFFF;
+   border: 1px solid #B9B9B9;
+   border-radius: 10px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+.frame8181{
+   /* Frame 8181 */
+
+
+   /* Auto layout */
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 10px 10px 10px 0px;
+
+   width: 150.04px;
+   height: 36px;
+
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 1;
+}
+.nhapmahenkhachsdt {
+   width: 128px;
+   height: 16px;
+   font-family: 'roboto';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 0px;
+   color: #a6a6a6;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   border: none;
+   
+
+}
+.searchoutlined{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 1px 0px;
+   gap: 10px;
+   width: 16.96px;
+   height: 18.96px;
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}  
+.heropanner{
+position: absolute;
+height: 583px;
+left: 0px;
+right: 0px;
+top: 74px;
+}
+.panner{
+   position: absolute;
+   width: 1440px;
+   height: 589px;
+   left: 0px;
+   right: 0px;
+   top: 0px;
+   background: url(BANNER\ WEB-3\ 1.png);
+}  
+.rectangle{
+   position: absolute;
+   width: 333px;
+   height: 316px;
+   left: 929px;
+   top: 176px;
+   border-radius: 20px;
+
+   background: rgba(255, 255, 255, 0.8);
+   backdrop-filter: blur(2.5px);
+/* Note: backdrop-filter has minimal browser support */
+
+   border-radius: 20px;
+}
+.frame8372{
+
+width: 115px;
+height: 136px;
+left: 976px;
+top: 198px;
+
+/* character/primary (inverse) */
+
+background: #FFFFFF;
+box-shadow: 0px 2px 8px rgba(214, 27, 34, 0.15);
+border-radius: 10px;
+}
+body{
+   
+position: relative;
+width: 1440px;
+height: 2708px;
+
+background: #FFFFFF;
+margin: 0 auto;
+}
+.frame8451{
+   display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 28px;
+
+position: absolute;
+width: 95px;
+height: 348px;
+left: 1345px;
+top: 156px;
+
+background: rgba(255, 255, 255, 0.8);
+box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
+border-radius: 20px 0px 0px 20px;
+}
+.frame8397{
+   display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 79px;
+height: 92px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.khamchuyenkhoa{
+   /* khám chuyên khoa */
+
+
+width: 48px;
+height: 48px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.datkhamchuyenkhoa{
+   width: 79px;
+height: 40px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+text-align: center;
+
+/* character/Primary text */
+
+color: #262626;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.frame8398{
+   /* Frame 8398 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 60px;
+height: 92px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.khambacsi{
+   /* khám bác sĩ */
+
+
+   width: 48px;
+   height: 48px;
+   
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.datkhambacsi{
+   /* Đặt khám bác sĩ */
+
+
+width: 60px;
+height: 40px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+text-align: center;
+
+/* Color/Neutral/Black100 */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.frame8399{
+   /* Frame 8399 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 61px;
+height: 92px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.khamtheogio{
+   /* khám theo giờ */
+
+
+width: 48px;
+height: 48px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.datkhamkhunggio{
+   /* Đặt khám khung giờ */
+
+
+width: 61px;
+height: 40px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+text-align: center;
+
+/* Color/Neutral/Black100 */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.chucnang{
+   /* Chức năng */
+
+
+position: absolute;
+width: 135px;
+height: 33px;
+left: 653px;
+top: 717px;
+
+/* heading/Heading2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.frame8450{
+   display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 25px;
+
+position: absolute;
+width: 1106px;
+height: 473px;
+left: 167px;
+top: 791px;
+}
+.frame8444{
+   box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px;
+gap: 20px;
+
+width: 352px;
+height: 473px;
+
+/* character/border */
+
+border: 1px solid #D9D9D9;
+border-radius: 15px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.frame8447{
+   /* Frame 8447 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 320px;
+height: 82px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.dangkikhambenhonl{
+   width: 212px;
+height: 22px;
+
+/* Subtitle */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+
+color: #000000;
+font-stretch: 100;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.theodoilichkham{
+   width: 310px;
+height: 44px;
+
+/* body/body1 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.frame8446{
+   box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px;
+gap: 20px;
+
+width: 352px;
+height: 472px;
+
+/* character/border */
+
+border: 1px solid #D9D9D9;
+border-radius: 15px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.frame8445{
+   box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px;
+gap: 20px;
+
+width: 352px;
+height: 473px;
+
+/* character/border */
+
+border: 1px solid #D9D9D9;
+border-radius: 15px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.taiungdungtekmide{
+   position: absolute;
+width: 278px;
+height: 33px;
+left: 581px;
+top: 1354px;
+
+/* heading/Heading2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.group8188{
+   position: absolute;
+width: 1440px;
+height: 560.07px;
+left: 0px;
+top: 1428px;
+background-image:url(Frame\ 8459.png);
+
+}
+.frame8449{
+   display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 517px;
+height: 120px;
+left: 439px;
+top: 406px;
+
+}
+.qr{
+   width: 120px;
+height: 120px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+background: #ffffff;
+}
+.frame8448{
+   display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 377px;
+height: 93px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.frame50{
+   /* Frame 50 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 288.73px;
+height: 40px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.quetma{
+   width: 377px;
+   height: 33px;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 33px;
+/* identical to box height */
+   color: #FFFFFF;
+   
+
+
+/* Inside auto layout */
+
+order: 0;
+flex-grow: 0;
+}
+.appstore{
+   /* appstore */
+
+
+width: 138.46px;
+height: 40px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.googleplay{
+   /* googleplay */
+
+
+width: 138.27px;
+height: 40px;
+
+transform: matrix(1, 0, 0, 1, 0, 0);
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.frame49{
+   /* Frame 49 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 427px;
+height: 24px;
+left: 887px;
+top: 277px;
+}
+.luuvatheodoi{
+ 
+width: 395px;
+height: 22px;
+
+/* Subtitle */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+
+color: #FFFFFF;
+font-stretch: 100;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.frame48{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+   width: 314px;
+   position: absolute;
+   height: 24px;
+   left: 887px;
+   top: 173px;
+}
+.thanhtoannhanh{
+   width: 282px;
+height: 22px;
+
+/* Subtitle */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+
+color: #FFFFFF;
+font-stretch: 100;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.frame47{
+   display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 287px;
+height: 24px;
+left: 887px;
+top: 69px;
+
+}
+.giaodien{
+   width: 255px;
+height: 22px;
+
+/* Subtitle */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+
+color: #FFFFFF;
+font-stretch: 100;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.frame46{
+   display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 267px;
+height: 24px;
+left: 287px;
+top: 277.2px;
+}
+.datlichnhacnhouongthuoc{
+   
+height: 22px;
+
+/* Subtitle */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+
+color: #FFFFFF;
+font-stretch: 100;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.medicine{
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.frame45{
+   /* Frame 45 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 319px;
+height: 24px;
+left: 238px;
+top: 173px;
+}
+.thaydoivacapnhatlichkham{
+   /* Thay đổi & cập nhật lịch khám bệnh */
+
+
+
+height: 22px;
+
+/* Subtitle */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+
+color: #FFFFFF;
+font-stretch: 100;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.vector{
+   width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.frame43{
+   display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 370px;
+height: 24px;
+left: 184px;
+top: 70px;
+
+}
+.calendar{
+   width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.chudongdatlichkhamtrongvong1phut{
+   height: 22px;
+
+/* Subtitle */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+
+color: #FFFFFF;
+font-stretch: 100;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.ip{
+   position: absolute;
+width: 213px;
+height: 368.38px;
+left: 614px;
+top: 38px;
+
+background: url(iPhone\ Sx\ all\ sizes\ &\ colors\ Mockup-1\ 1.png);
+}
+.huongdan{
+   /* Hướng dẫn */
+
+
+position: absolute;
+width: 139px;
+height: 33px;
+left: 651px;
+top: 2093.33px;
+
+/* heading/Heading2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.img6{
+   position: absolute;
+width: 257px;
+height: 155px;
+left: 169px;
+top: 2167px;
+
+background: url(image\ 6.png);
+}
+.img7{
+   position: absolute;
+width: 257px;
+height: 155px;
+left: 450px;
+top: 2167px;
+
+background: url(image\ 7.png);
+}
+.img8{
+   position: absolute;
+width: 258px;
+height: 156px;
+left: 732px;
+top: 2167px;
+
+background: url(image\ 8.png);
+}
+.img9{
+   position: absolute;
+width: 258px;
+height: 156px;
+left: 1014px;
+top: 2167px;
+
+background: url(image\ 9.png);
+}
+.dangkikhambenhtuxa{
+   position: absolute;
+width: 257px;
+height: 20px;
+left: 169px;
+top: 2334px;
+
+/* body/Body2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+color: #000000;
+}
+.dangkikhamchuyenkhoa{
+   position: absolute;
+width: 257px;
+height: 20px;
+left: 450px;
+top: 2334px;
+
+/* body/Body2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+color: #000000;
+}
+.dangkikhamtongquat{
+   position: absolute;
+width: 257px;
+height: 20px;
+left: 732px;
+top: 2334px;
+
+/* body/Body2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+color: #000000;
+}
+.dangkithanhtoanvienphi{
+   position: absolute;
+width: 257px;
+height: 40px;
+left: 1013px;
+top: 2334px;
+
+/* body/Body2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+color: #000000;
+}
+footer{
+   width: 1440px;
+position: absolute;
+height: 275px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.15);
+top: 2433px;
+}
+.group741{
+   position: absolute;
+width: 1440px;
+height: 40px;
+left: 0px;
+top: 235px;
+
+}
+.rectangle222{
+   
+position: absolute;
+height: 40px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+
+/* primary */
+
+background: #D61B22;
+}
+.tekmedi{
+   
+position: absolute;
+height: 16px;
+left: 665px;
+right: 665px;
+bottom: 12px;
+
+/* caption */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+color: #FFFFFF;
+}
+.group742{
+   position: absolute;
+width: 1440px;
+height: 275px;
+left: 0px;
+top: 0px;
+}
+.download{
+   position: absolute;
+width: 100px;
+height: 15.65px;
+left: 1052px;
+top: 127px;
+
+background: url(download.png);
+}
+.googleplay1{
+   position: absolute;
+   
+width: 103.59px;
+height: 29.97px;
+left: 1167.73px;
+top: 80.08px;
+
+transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.appstore1{
+   position: absolute;
+width: 103.73px;
+height: 29.97px;
+left: 1052px;
+top: 80.08px;
+}
+.bocongthuong2{
+   position: absolute;
+width: 103px;
+height: 39px;
+left: 1167px;
+top: 24px;
+}
+.bocongthuong1{
+   position: absolute;
+width: 104px;
+height: 39px;
+left: 1052px;
+top: 24px;
+}
+.frame54{
+   display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 142px;
+height: 81px;
+left: calc(50% - 142px/2 + 177px);
+bottom: 170px;
+color: #000000;
+}
+.text{
+   font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.frame53{
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+height: 190px;
+left: 357px;
+right: 685px;
+
+}
+.congtyphanmem{
+   width: 398px;
+height: 38px;
+
+/* heading/Heading4 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+
+/* primary */
+
+color: #D61B22;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.diachi{
+   width: 398px;
+height: 60px;
+
+/* body/Body2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.web{
+   width: 398px;
+height: 20px;
+
+/* body/Body2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* link */
+
+color: #1890FF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0
+}
+.email{
+   width: 398px;
+height: 20px;
+
+/* body/Body2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+.sdt{
+   width: 398px;
+height: 20px;
+
+/* body/Body2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+.vector2{
+   position: absolute;
+width: 127px;
+height: 93px;
+left: 169px;
+bottom: 158px;
+
+}
